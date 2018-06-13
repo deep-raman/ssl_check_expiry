@@ -5,14 +5,14 @@ This shell script is a simple wrapper around the openssl binary. It uses s_clien
 certificate files. It can parse out some of the openssl output or just dump all of it as text.
  
 Options:
-========
+--------
  	
  	--file       Use a local certificate file for input.
   	--host       Fetch the certificate from this remote host.
   	--help       Print help message.
 
 Examples:
-========
+---------
 
         1. Check remote host certificate expiry date :
 
